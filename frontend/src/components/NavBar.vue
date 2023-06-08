@@ -13,8 +13,6 @@
               <span class="navbar__hamburger-bottom"
                     :class="{'navbar__hamburger-bottom--toggled': isOpenBurger}"></span>
             </button>
-            <input class="navbar__search" placeholder="Поиск">
-
             <div class="navbar__area-controls">
               <div class="navbar__profile">
                 <router-link :to="{name: isAdmin ? 'AdminPage' :'ProfileView'}"><img src="@/assets/profile.svg"></router-link>

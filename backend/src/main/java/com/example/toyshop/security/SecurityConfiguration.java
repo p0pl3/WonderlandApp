@@ -31,7 +31,11 @@ public class SecurityConfiguration {
                 .cors()
                 .and()
                 .authorizeHttpRequests()
-                .requestMatchers("/register", "/authenticate", "/images/**", "/image/**").permitAll()
+                .requestMatchers("/register", "/authenticate", "/images/**", "/image/**", "/api/auth/**",
+                        "/v3/api-docs.yaml",
+                        "/v3/api-docs/**",
+                        "/swagger-ui/**",
+                        "/swagger-ui.html").permitAll()
                 .requestMatchers(HttpMethod.GET, "/product/**", "/feed/**", "/category/**", "/feed_category/**").permitAll()
                 .requestMatchers(HttpMethod.POST, "/product/comments/**", "/feed/comments/**", "/user/*/update").authenticated()
                 .requestMatchers("/orders/**").authenticated()
