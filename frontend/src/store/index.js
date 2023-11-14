@@ -1,9 +1,12 @@
+/* eslint-disable */
+
 import {createStore} from 'vuex'
 import axios from "axios";
 import AuthService from "@/services/auth.service";
 import authHeader from "@/services/auth-header";
 
 let baseUrl = 'http://localhost:8081';
+
 
 const user = JSON.parse(localStorage.getItem('user'));
 const initialState = user
@@ -192,6 +195,7 @@ export default createStore({
         loginSuccess(state, user) {
             state.curUser.status = true;
             state.curUser.user = user;
+            console.log()
         },
         loginFailure(state) {
             state.curUser.status = false;
@@ -382,6 +386,15 @@ export default createStore({
                     return Promise.reject(error);
                 }
             );
+        },
+        loadUserData({commit},user){
+            axios.get(baseUrl + "/user", {headers: authHeader()}).then(r => {
+                console.log(r);
+
+                commit('setUser', r.data);
+            }).catch(e => {
+                console.log(e);
+            });
         }
     },
     modules: {}

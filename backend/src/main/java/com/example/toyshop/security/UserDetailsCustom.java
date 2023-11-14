@@ -29,7 +29,6 @@ public class UserDetailsCustom implements UserDetails {
     public static UserDetails fromUser(User user) {
         return UserDetailsCustom.builder()
                 .id(user.getId())
-                .password(user.getPassword())
                 .email(user.getEmail())
                 .authorities(List.of(new SimpleGrantedAuthority(user.getRole().name())))
                 .isActive(user.getStatus().equals(Status.ACTIVE))

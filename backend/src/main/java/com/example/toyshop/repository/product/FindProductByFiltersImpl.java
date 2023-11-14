@@ -28,7 +28,7 @@ public class FindProductByFiltersImpl implements FindProductByFilters {
         if (title != null)
             predicates.add(cb.like(product.get("title"), "%" + title + "%"));
         if (categoryId != null)
-            predicates.add(cb.equal(product.get("category"), categoryId));
+            predicates.add(cb.equal(product.get("category").get("id"), categoryId));
         if (min_price != null)
             predicates.add(cb.greaterThanOrEqualTo(product.get("new_price"), min_price));
         if (max_price != null)
