@@ -1,29 +1,25 @@
 package com.example.toyshop.service;
 
-import com.example.toyshop.dto.feed_category.FeedCategoryCreateDTO;
-import com.example.toyshop.dto.feed_category.FeedCategoryListDTO;
+
 import com.example.toyshop.entity.FeedCategory;
 import com.example.toyshop.repository.FeedCategoryRepository;
-import com.example.toyshop.mapper.FeedCategoryMapper;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor
 public class FeedCategoryService {
 
     private final FeedCategoryRepository repository;
-    private FeedCategoryMapper mapper;
 
-    public FeedCategoryListDTO create(FeedCategoryCreateDTO dto) {
-        return mapper.toListDto(repository.save(mapper.fromCreateDto(dto)));
+    public FeedCategory create(FeedCategory dto) {
+        return repository.save(dto);
     }
 
-    public List<FeedCategoryListDTO> findAll() {
-        return repository.findAll().stream().map(mapper::toListDto).collect(Collectors.toList());
+    public List<FeedCategory> findAll() {
+        return repository.findAll();
     }
 
     public FeedCategory findById(Long id) {

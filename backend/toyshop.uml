@@ -1,0 +1,1902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/study/5sem/coursework/WonderlandApp/backend/src/main/java/com/example/toyshop</OriginalElement>
+  <nodes>
+    <node x="425.92138208691904" y="-428.0">com.example.toyshop.controller.UserController</node>
+    <node x="3630.13084601809" y="1682.0">com.example.toyshop.entity.FeedCategory.FeedCategoryBuilder</node>
+    <node x="1710.3914626075439" y="1020.0">com.example.toyshop.service.UserService</node>
+    <node x="-1200.625" y="887.0">com.example.toyshop.dto.order.OrderListDTO</node>
+    <node x="4227.671382086919" y="3123.0">com.example.toyshop.entity.Feed</node>
+    <node x="-627.75" y="412.0">com.example.toyshop.repository.product_comment.FindProductCommentByFiltersImpl</node>
+    <node x="2871.88084601809" y="2321.0">com.example.toyshop.dto.feed_comment.FeedCommentListDTO</node>
+    <node x="6414.209463931171" y="387.5">com.example.toyshop.controller.FeedCategoryController</node>
+    <node x="-1435.453617913081" y="-452.0">com.example.toyshop.controller.OrderController</node>
+    <node x="1520.921382086919" y="-55.0">com.example.toyshop.security.AuthenticatedUserService</node>
+    <node x="7053.709463931171" y="4772.0">com.example.toyshop.security.JwtService</node>
+    <node x="-4273.25" y="2442.5">com.example.toyshop.mapper.CategoryMapper</node>
+    <node x="2760.709463931171" y="5448.0">com.example.toyshop.security.Status</node>
+    <node x="3505.88084601809" y="1116.0">com.example.toyshop.repository.feed.FindFeedByFiltersImpl</node>
+    <node x="-5340.0" y="959.0">com.example.toyshop.dto.product_comment.ProductCommentDetailDTO</node>
+    <node x="1603.7094639311708" y="4567.0">com.example.toyshop.entity.User</node>
+    <node x="3998.671382086919" y="3267.0">com.example.toyshop.dto.feed.FeedDTO</node>
+    <node x="-1984.760616589454" y="1104.5">com.example.toyshop.mapper.OrderItemMapper</node>
+    <node x="5594.25" y="1633.0">com.example.toyshop.dto.feed.FeedCreateDTO</node>
+    <node x="6294.209463931171" y="2321.0">com.example.toyshop.dto.feed_category.FeedCategoryListDTO</node>
+    <node x="5053.25" y="1116.5">com.example.toyshop.mapper.FeedMapper</node>
+    <node x="665.2094639311708" y="4111.0">com.example.toyshop.dto.user.UserDTO</node>
+    <node x="-2335.99415398191" y="388.0">com.example.toyshop.service.OrderItemService</node>
+    <node x="-18.010616589454003" y="3195.0">com.example.toyshop.dto.order.OrderCreateDTO</node>
+    <node x="1907.171382086919" y="-55.0">com.example.toyshop.security.UserDetailsServiceImpl</node>
+    <node x="-4972.24415398191" y="4039.0">com.example.toyshop.entity.Category</node>
+    <node x="-2445.165536068829" y="4015.0">com.example.toyshop.entity.ProductComment</node>
+    <node x="6537.209463931171" y="2369.0">com.example.toyshop.dto.feed_category.FeedCategoryCreateDTO</node>
+    <node x="-3298.328617913081" y="1091.5">com.example.toyshop.controller.CategoryController</node>
+    <node x="-4033.328617913081" y="3267.0">com.example.toyshop.dto.category.CategoryCreateDTO</node>
+    <node x="-6947.953617913081" y="364.0">com.example.toyshop.controller.ProductController</node>
+    <node x="2724.88084601809" y="1031.0">com.example.toyshop.dto.feed_comment.FeedCommentCreateDTO</node>
+    <node x="5993.209463931171" y="1730.5">com.example.toyshop.mapper.FeedCategoryMapper</node>
+    <node x="-552.5405360688292" y="6008.0">com.example.toyshop.entity.OrderStatus</node>
+    <node x="2254.0" y="4232.5">com.example.toyshop.repository.UserRepository</node>
+    <node x="-6683.108537392456" y="3243.0">com.example.toyshop.dto.category.CategoryProductDTO</node>
+    <node x="-6844.608537392456" y="2201.0">com.example.toyshop.dto.product.ProductListDTO</node>
+    <node x="-1265.5" y="4135.0">com.example.toyshop.dto.order.OrderItemCreateDTO</node>
+    <node x="-1364.5" y="4688.0">com.example.toyshop.entity.Order.OrderBuilder</node>
+    <node x="4643.834463931171" y="1128.5">com.example.toyshop.repository.feed.FeedRepository</node>
+    <node x="-3540.328617913081" y="3195.0">com.example.toyshop.dto.product_comment.ProductCommentDTO</node>
+    <node x="4341.709463931171" y="2297.0">com.example.toyshop.entity.FeedCategory</node>
+    <node x="-4265.828617913081" y="-79.0">com.example.toyshop.service.ProductCommentService</node>
+    <node x="294.989383410546" y="2297.0">com.example.toyshop.dto.user.UserDetailDTO</node>
+    <node x="-1031.5" y="5207.0">com.example.toyshop.entity.Order</node>
+    <node x="5703.459463931171" y="1080.0">com.example.toyshop.service.FeedCategoryService</node>
+    <node x="4908.959463931171" y="1537.0">com.example.toyshop.dto.feed.FeedListDTO</node>
+    <node x="-8346.0" y="388.0">com.example.toyshop.controller.ProductImageController</node>
+    <node x="-7071.108537392456" y="4087.0">com.example.toyshop.entity.ProductImage</node>
+    <node x="-5818.74415398191" y="2991.0">com.example.toyshop.entity.Product</node>
+    <node x="-4951.578617913081" y="388.5">com.example.toyshop.mapper.ProductCommentMapper</node>
+    <node x="-5696.25" y="1772.0">com.example.toyshop.repository.product.ProductRepository</node>
+    <node x="-6575.608537392456" y="2129.0">com.example.toyshop.dto.product.ProductDetailDTO</node>
+    <node x="-845.078617913081" y="4808.5">com.example.toyshop.repository.OrderRepository</node>
+    <node x="1731.7094639311708" y="5448.0">com.example.toyshop.security.Role</node>
+    <node x="6948.209463931171" y="412.0">com.example.toyshop.security.JwtAuthenticationFilter</node>
+    <node x="-5977.608537392456" y="2466.5">com.example.toyshop.repository.product.FindProductByFilters</node>
+    <node x="2031.1308460180899" y="-403.5">com.example.toyshop.controller.FeedCommentController</node>
+    <node x="5368.671382086919" y="-427.5">com.example.toyshop.controller.FeedController</node>
+    <node x="-3702.328617913081" y="2466.5">com.example.toyshop.repository.CategoryRepository</node>
+    <node x="-1420.953617913081" y="-127.0">com.example.toyshop.service.OrderService</node>
+    <node x="-6207.608537392456" y="2225.0">com.example.toyshop.dto.product.ProductCreateDTO</node>
+    <node x="-7402.108537392456" y="3352.5">com.example.toyshop.mapper.ProductImageMapper</node>
+    <node x="6959.709463931171" y="-55.0">com.example.toyshop.security.SecurityConfiguration</node>
+    <node x="-4334.328617913081" y="3219.0">com.example.toyshop.dto.category.CategoryListDTO</node>
+    <node x="-7755.108537392456" y="3364.5">com.example.toyshop.repository.ProductImageRepository</node>
+    <node x="-3347.49415398191" y="424.5">com.example.toyshop.repository.product_comment.ProductCommentRepository</node>
+    <node x="3162.88084601809" y="3364.5">com.example.toyshop.repository.FeedCommentRepository</node>
+    <node x="4169.459463931171" y="1754.5">com.example.toyshop.repository.feed.FindFeedByFilters</node>
+    <node x="774.989383410546" y="1694.5">com.example.toyshop.mapper.UserMapper</node>
+    <node x="-7910.108537392456" y="2430.0">com.example.toyshop.service.ProductImageService</node>
+    <node x="4955.921382086919" y="340.0">com.example.toyshop.service.FeedService</node>
+    <node x="-6377.25" y="1694.5">com.example.toyshop.mapper.ProductMapper</node>
+    <node x="2774.921382086919" y="-79.0">com.example.toyshop.service.FeedCommentService</node>
+    <node x="2645.88084601809" y="400.5">com.example.toyshop.mapper.FeedCommentMapper</node>
+    <node x="-1860.4155360688292" y="5472.5">com.example.toyshop.repository.OrderItemRepository</node>
+    <node x="1580.5" y="159.0">com.example.toyshop.security.UserDetailsCustom</node>
+    <node x="-7965.108537392456" y="1031.0">com.example.toyshop.dto.product_comment.ProductCommentCreateDTO</node>
+    <node x="-7316.040536068829" y="4711.0">com.example.toyshop.dto.product.ProductImageDTO</node>
+    <node x="-1541.9155360688292" y="5863.0">com.example.toyshop.entity.OrderItem</node>
+    <node x="-1054.125" y="388.5">com.example.toyshop.mapper.OrderMapper</node>
+    <node x="-2827.328617913081" y="1128.5">com.example.toyshop.repository.product_comment.FindProductCommentByFilters</node>
+    <node x="-6313.953617913081" y="1044.0">com.example.toyshop.service.ProductService</node>
+    <node x="1079.989383410546" y="1044.0">com.example.toyshop.security.UserDetailsCustom.UserDetailsCustomBuilder</node>
+    <node x="4593.959463931171" y="1754.5">com.example.toyshop.repository.FeedCategoryRepository</node>
+    <node x="659.989383410546" y="2345.0">com.example.toyshop.dto.user.UserCreateDTO</node>
+    <node x="2461.88084601809" y="983.0">com.example.toyshop.dto.feed_comment.FeedCommentDetailDTO</node>
+    <node x="-3988.665536068829" y="4063.0">com.example.toyshop.dto.product.ProductCategoryDTO</node>
+    <node x="4845.63084601809" y="2369.0">com.example.toyshop.dto.feed_category.FeedCategoryDTO</node>
+    <node x="4012.75" y="4039.0">com.example.toyshop.entity.FeedComment</node>
+    <node x="-4177.75" y="1670.0">com.example.toyshop.service.CategoryService</node>
+    <node x="-3798.328617913081" y="-403.5">com.example.toyshop.controller.ProductCommentController</node>
+    <node x="-5009.75" y="1742.0">com.example.toyshop.repository.product.FindProductByFiltersImpl</node>
+    <node x="-1842.75" y="1633.0">com.example.toyshop.dto.order.OrderItemListDTO</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.toyshop.entity.User" target="com.example.toyshop.entity.Order" relationship="DEPENDENCY">
+      <point x="0.0" y="273.0" />
+      <point x="1818.7094639311708" y="5165.0" />
+      <point x="-720.25" y="5165.0" />
+      <point x="103.75" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Order" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="103.75" y="-297.0" />
+      <point x="-720.25" y="5165.0" />
+      <point x="1818.7094639311708" y="5165.0" />
+      <point x="0.0" y="273.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductImageService" target="com.example.toyshop.dto.product.ProductImageDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-7677.108537392456" y="2939.0" />
+      <point x="-7765.608537392456" y="2939.0" />
+      <point x="-7765.608537392456" y="4540.0" />
+      <point x="-7211.540536068829" y="4540.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCommentService" target="com.example.toyshop.dto.feed_comment.FeedCommentCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="3021.921382086919" y="137.0" />
+      <point x="3064.38084601809" y="137.0" />
+      <point x="3064.38084601809" y="795.0" />
+      <point x="2849.88084601809" y="795.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.user.UserDetailDTO" target="com.example.toyshop.dto.product_comment.ProductCommentDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="201.0" />
+      <point x="466.989383410546" y="2959.0" />
+      <point x="-3429.828617913081" y="2959.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductImageMapper" target="com.example.toyshop.dto.product.ProductImageDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="43.5" />
+      <point x="-7247.108537392456" y="4540.0" />
+      <point x="-7211.540536068829" y="4540.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.UserController" target="com.example.toyshop.dto.user.UserCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="92.5" />
+      <point x="651.921382086919" y="-168.0" />
+      <point x="764.489383410546" y="-168.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCommentService" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="3021.921382086919" y="137.0" />
+      <point x="3495.38084601809" y="137.0" />
+      <point x="3495.38084601809" y="3883.0" />
+      <point x="4400.25" y="3883.0" />
+      <point x="4400.25" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.UserService" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="140.0" />
+      <point x="1931.3914626075439" y="1455.0" />
+      <point x="2041.6414626075439" y="1455.0" />
+      <point x="2041.6414626075439" y="3923.0" />
+      <point x="2534.5" y="3923.0" />
+      <point x="2534.5" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedService" target="com.example.toyshop.mapper.FeedMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="5183.921382086919" y="845.0" />
+      <point x="5197.25" y="845.0" />
+      <point x="0.0" y="-43.5" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductImageController" target="com.example.toyshop.dto.product.ProductImageDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-8112.0" y="4540.0" />
+      <point x="-7211.540536068829" y="4540.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.JwtService" target="com.example.toyshop.security.Status" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="7172.709463931171" y="5185.0" />
+      <point x="2854.209463931171" y="5185.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductController" target="com.example.toyshop.service.ProductImageService" relationship="DEPENDENCY">
+      <point x="0.0" y="92.0" />
+      <point x="-6638.953617913081" y="775.0" />
+      <point x="-7544.75" y="775.0" />
+      <point x="-7544.75" y="815.0" />
+      <point x="-7682.608537392456" y="815.0" />
+      <point x="-7682.608537392456" y="2057.0" />
+      <point x="-7677.108537392456" y="2057.0" />
+      <point x="0.0" y="-68.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.UserController" target="com.example.toyshop.dto.user.UserDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="92.5" />
+      <point x="651.921382086919" y="-168.0" />
+      <point x="284.489383410546" y="-168.0" />
+      <point x="284.489383410546" y="3853.0" />
+      <point x="769.7094639311708" y="3853.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderItemService" target="com.example.toyshop.dto.order.OrderItemCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-2111.49415398191" y="865.0" />
+      <point x="-2105.233537392456" y="865.0" />
+      <point x="-2105.233537392456" y="3913.0" />
+      <point x="-1159.0" y="3913.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCommentService" target="com.example.toyshop.mapper.FeedCommentMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="3021.921382086919" y="137.0" />
+      <point x="2849.88084601809" y="137.0" />
+      <point x="0.0" y="-55.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCommentService" target="com.example.toyshop.entity.FeedComment" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="3021.921382086919" y="137.0" />
+      <point x="3152.38084601809" y="137.0" />
+      <point x="3152.38084601809" y="3893.0" />
+      <point x="4201.25" y="3893.0" />
+      <point x="0.0" y="-225.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product_comment.FindProductCommentByFilters" target="com.example.toyshop.entity.ProductComment" relationship="DEPENDENCY">
+      <point x="0.0" y="31.5" />
+      <point x="-2628.328617913081" y="3843.0" />
+      <point x="-2223.665536068829" y="3843.0" />
+      <point x="0.0" y="-249.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCategoryService" target="com.example.toyshop.dto.feed_category.FeedCategoryListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="80.0" />
+      <point x="5940.459463931171" y="1475.0" />
+      <point x="6257.171382086919" y="1475.0" />
+      <point x="6257.171382086919" y="1515.0" />
+      <point x="6405.709463931171" y="1515.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedService" target="com.example.toyshop.entity.FeedCategory" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="5183.921382086919" y="845.0" />
+      <point x="4475.38084601809" y="845.0" />
+      <point x="4475.38084601809" y="2067.0" />
+      <point x="4960.13084601809" y="2067.0" />
+      <point x="4960.13084601809" y="2097.0" />
+      <point x="4605.709463931171" y="2097.0" />
+      <point x="88.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.OrderController" target="com.example.toyshop.dto.order.OrderCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.5" />
+      <point x="-1200.953617913081" y="-168.0" />
+      <point x="127.989383410546" y="-168.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.CategoryService" target="com.example.toyshop.dto.category.CategoryCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-3976.75" y="2077.0" />
+      <point x="-3712.828617913081" y="2077.0" />
+      <point x="-3712.828617913081" y="2939.0" />
+      <point x="-3928.828617913081" y="2939.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductController" target="com.example.toyshop.service.ProductService" relationship="DEPENDENCY">
+      <point x="0.0" y="92.0" />
+      <point x="-6638.953617913081" y="775.0" />
+      <point x="-7544.75" y="775.0" />
+      <point x="-7544.75" y="795.0" />
+      <point x="-6050.953617913081" y="795.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.dto.product.ProductImageDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-7081.608537392456" y="1465.0" />
+      <point x="-7081.608537392456" y="4540.0" />
+      <point x="-7211.540536068829" y="4540.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.FeedCategoryMapper" target="com.example.toyshop.dto.feed_category.FeedCategoryListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="6194.209463931171" y="2067.0" />
+      <point x="6405.709463931171" y="2067.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.feed.FindFeedByFiltersImpl" target="com.example.toyshop.repository.feed.FindFeedByFilters" relationship="REALIZATION">
+      <point x="113.75" y="44.0" />
+      <point x="3847.13084601809" y="1475.0" />
+      <point x="4217.459463931171" y="1475.0" />
+      <point x="-96.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductController" target="com.example.toyshop.dto.product.ProductCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="92.0" />
+      <point x="-6638.953617913081" y="775.0" />
+      <point x="-7544.75" y="775.0" />
+      <point x="-7544.75" y="2067.0" />
+      <point x="-6103.108537392456" y="2067.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.FeedCategoryRepository" target="com.example.toyshop.entity.FeedCategory" relationship="DEPENDENCY">
+      <point x="0.0" y="31.5" />
+      <point x="4740.959463931171" y="2067.0" />
+      <point x="4960.13084601809" y="2067.0" />
+      <point x="4960.13084601809" y="2097.0" />
+      <point x="4605.709463931171" y="2097.0" />
+      <point x="88.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedController" target="com.example.toyshop.service.FeedService" relationship="DEPENDENCY">
+      <point x="0.0" y="92.0" />
+      <point x="5593.671382086919" y="-148.0" />
+      <point x="5183.921382086919" y="-148.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.FeedCommentMapper" target="com.example.toyshop.entity.FeedComment" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="2849.88084601809" y="805.0" />
+      <point x="3117.209463931171" y="805.0" />
+      <point x="3117.209463931171" y="3893.0" />
+      <point x="4201.25" y="3893.0" />
+      <point x="0.0" y="-225.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.feed.FindFeedByFiltersImpl" target="com.example.toyshop.entity.Feed" relationship="DEPENDENCY">
+      <point x="-113.75" y="44.0" />
+      <point x="3619.63084601809" y="2889.0" />
+      <point x="4448.671382086919" y="2889.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.UserDetailsCustom" target="com.example.toyshop.security.UserDetailsCustom.UserDetailsCustomBuilder" relationship="DEPENDENCY">
+      <point x="107.5" y="297.0" />
+      <point x="1903.0" y="775.0" />
+      <point x="1559.5" y="775.0" />
+      <point x="1559.5" y="815.0" />
+      <point x="1441.489383410546" y="815.0" />
+      <point x="120.5" y="-116.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.OrderMapper" target="com.example.toyshop.entity.Order" relationship="DEPENDENCY">
+      <point x="0.0" y="67.5" />
+      <point x="-906.125" y="3863.0" />
+      <point x="-474.32861791308096" y="3863.0" />
+      <point x="-474.32861791308096" y="5135.0" />
+      <point x="-720.25" y="5135.0" />
+      <point x="103.75" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.UserMapper" target="com.example.toyshop.dto.user.UserDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="91.5" />
+      <point x="916.989383410546" y="2057.0" />
+      <point x="578.8808460180899" y="2057.0" />
+      <point x="578.8808460180899" y="2087.0" />
+      <point x="649.489383410546" y="2087.0" />
+      <point x="649.489383410546" y="3853.0" />
+      <point x="769.7094639311708" y="3853.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.UserDetailsServiceImpl" target="com.example.toyshop.security.UserDetailsCustom" relationship="DEPENDENCY">
+      <point x="0.0" y="44.0" />
+      <point x="2060.171382086919" y="137.0" />
+      <point x="1795.5" y="137.0" />
+      <point x="0.0" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductController" target="com.example.toyshop.dto.product.ProductDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="92.0" />
+      <point x="-6638.953617913081" y="775.0" />
+      <point x="-7544.75" y="775.0" />
+      <point x="-7544.75" y="2077.0" />
+      <point x="-6429.108537392456" y="2077.0" />
+      <point x="0.0" y="-369.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderItemService" target="com.example.toyshop.entity.OrderItem" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-2111.49415398191" y="865.0" />
+      <point x="-2143.99415398191" y="865.0" />
+      <point x="-2143.99415398191" y="3933.0" />
+      <point x="-1552.9155360688292" y="3933.0" />
+      <point x="-1552.9155360688292" y="5822.0" />
+      <point x="-1392.4155360688292" y="5822.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductMapper" target="com.example.toyshop.dto.product.ProductCategoryDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="91.5" />
+      <point x="-6197.25" y="2077.0" />
+      <point x="-5988.108537392456" y="2077.0" />
+      <point x="-5988.108537392456" y="3833.0" />
+      <point x="-3864.165536068829" y="3833.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.UserController" target="com.example.toyshop.dto.user.UserDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="92.5" />
+      <point x="651.921382086919" y="-168.0" />
+      <point x="396.38084601808987" y="-168.0" />
+      <point x="396.38084601808987" y="2067.0" />
+      <point x="466.989383410546" y="2067.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderItemService" target="com.example.toyshop.entity.Order" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-2111.49415398191" y="3923.0" />
+      <point x="-1552.9155360688292" y="3923.0" />
+      <point x="-1552.9155360688292" y="5135.0" />
+      <point x="-720.25" y="5135.0" />
+      <point x="103.75" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductCommentService" target="com.example.toyshop.service.ProductService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-4001.828617913081" y="127.0" />
+      <point x="-6050.953617913081" y="127.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCommentService" target="com.example.toyshop.repository.FeedCommentRepository" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="3021.921382086919" y="137.0" />
+      <point x="3323.88084601809" y="137.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.OrderItemMapper" target="com.example.toyshop.dto.order.OrderItemCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="-1831.760616589454" y="1465.0" />
+      <point x="-1438.1655360688292" y="1465.0" />
+      <point x="-1438.1655360688292" y="3913.0" />
+      <point x="-1159.0" y="3913.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.CategoryService" target="com.example.toyshop.repository.CategoryRepository" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-3976.75" y="2057.0" />
+      <point x="-3571.328617913081" y="2057.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.entity.Order" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="137.0" />
+      <point x="-1283.875" y="137.0" />
+      <point x="-1283.875" y="3893.0" />
+      <point x="-855.578617913081" y="3893.0" />
+      <point x="-855.578617913081" y="5135.0" />
+      <point x="-720.25" y="5135.0" />
+      <point x="103.75" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCommentService" target="com.example.toyshop.dto.feed_comment.FeedCommentListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="3021.921382086919" y="137.0" />
+      <point x="2451.38084601809" y="137.0" />
+      <point x="2451.38084601809" y="2057.0" />
+      <point x="2985.38084601809" y="2057.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.dto.order.OrderListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="137.0" />
+      <point x="-1064.625" y="137.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.FeedCommentMapper" target="com.example.toyshop.dto.feed_comment.FeedCommentCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedService" target="com.example.toyshop.dto.feed.FeedListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="5183.921382086919" y="845.0" />
+      <point x="4633.334463931171" y="845.0" />
+      <point x="4633.334463931171" y="1455.0" />
+      <point x="5073.459463931171" y="1455.0" />
+      <point x="0.0" y="-249.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.OrderMapper" target="com.example.toyshop.dto.order.OrderCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="67.5" />
+      <point x="-906.125" y="2889.0" />
+      <point x="127.989383410546" y="2889.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.JwtAuthenticationFilter" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="44.0" />
+      <point x="7172.709463931171" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductCommentService" target="com.example.toyshop.mapper.ProductCommentMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-4001.828617913081" y="127.0" />
+      <point x="-4730.578617913081" y="127.0" />
+      <point x="0.0" y="-67.5" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Product" target="com.example.toyshop.entity.ProductImage" relationship="DEPENDENCY">
+      <point x="0.0" y="405.0" />
+      <point x="-5616.24415398191" y="3993.0" />
+      <point x="-6930.608537392456" y="3993.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.ProductImage" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="-177.0" />
+      <point x="-6930.608537392456" y="3993.0" />
+      <point x="-5616.24415398191" y="3993.0" />
+      <point x="0.0" y="405.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.entity.Category" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-5460.483537392456" y="1465.0" />
+      <point x="-5460.483537392456" y="2949.0" />
+      <point x="-5080.49415398191" y="2949.0" />
+      <point x="-5080.49415398191" y="3823.0" />
+      <point x="-4803.74415398191" y="3823.0" />
+      <point x="0.0" y="-225.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductMapper" target="com.example.toyshop.dto.product.ProductCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="91.5" />
+      <point x="-6197.25" y="2087.0" />
+      <point x="-6103.108537392456" y="2087.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCategoryService" target="com.example.toyshop.mapper.FeedCategoryMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="80.0" />
+      <point x="5940.459463931171" y="1475.0" />
+      <point x="6257.171382086919" y="1475.0" />
+      <point x="6257.171382086919" y="1515.0" />
+      <point x="6194.209463931171" y="1515.0" />
+      <point x="0.0" y="-55.5" />
+    </edge>
+    <edge source="com.example.toyshop.security.UserDetailsServiceImpl" target="com.example.toyshop.service.UserService" relationship="DEPENDENCY">
+      <point x="0.0" y="44.0" />
+      <point x="2060.171382086919" y="127.0" />
+      <point x="2093.459463931171" y="127.0" />
+      <point x="2093.459463931171" y="785.0" />
+      <point x="1931.3914626075439" y="785.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCommentService" target="com.example.toyshop.entity.Feed" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="3021.921382086919" y="137.0" />
+      <point x="3495.38084601809" y="137.0" />
+      <point x="3495.38084601809" y="2889.0" />
+      <point x="4448.671382086919" y="2889.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.order.OrderItemListDTO" target="com.example.toyshop.dto.product.ProductCategoryDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="153.0" />
+      <point x="-1725.75" y="3833.0" />
+      <point x="-3864.165536068829" y="3833.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductCommentMapper" target="com.example.toyshop.entity.ProductComment" relationship="DEPENDENCY">
+      <point x="0.0" y="67.5" />
+      <point x="-4730.578617913081" y="855.0" />
+      <point x="-5020.25" y="855.0" />
+      <point x="-5020.25" y="2919.0" />
+      <point x="-3802.828617913081" y="2919.0" />
+      <point x="-3802.828617913081" y="3843.0" />
+      <point x="-2223.665536068829" y="3843.0" />
+      <point x="0.0" y="-249.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.CategoryController" target="com.example.toyshop.service.CategoryService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.5" />
+      <point x="-3073.328617913081" y="1465.0" />
+      <point x="-3976.75" y="1465.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.UserDetailsCustom" target="com.example.toyshop.security.Status" relationship="DEPENDENCY">
+      <point x="107.5" y="297.0" />
+      <point x="1903.0" y="775.0" />
+      <point x="1559.5" y="775.0" />
+      <point x="1559.5" y="815.0" />
+      <point x="1674.5" y="815.0" />
+      <point x="1674.5" y="3943.0" />
+      <point x="2243.5" y="3943.0" />
+      <point x="2243.5" y="5145.0" />
+      <point x="2854.209463931171" y="5145.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.mapper.ProductMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-6197.25" y="1465.0" />
+      <point x="0.0" y="-91.5" />
+    </edge>
+    <edge source="com.example.toyshop.dto.feed_comment.FeedCommentListDTO" target="com.example.toyshop.dto.user.UserDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="177.0" />
+      <point x="2985.38084601809" y="3853.0" />
+      <point x="769.7094639311708" y="3853.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedCommentController" target="com.example.toyshop.security.AuthenticatedUserService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="2317.13084601809" y="-168.0" />
+      <point x="1672.421382086919" y="-168.0" />
+      <point x="0.0" y="-44.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.feed.FeedListDTO" target="com.example.toyshop.dto.user.UserDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="249.0" />
+      <point x="5073.459463931171" y="2057.0" />
+      <point x="4902.209463931171" y="2057.0" />
+      <point x="4902.209463931171" y="2107.0" />
+      <point x="4835.13084601809" y="2107.0" />
+      <point x="4835.13084601809" y="3853.0" />
+      <point x="769.7094639311708" y="3853.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedService" target="com.example.toyshop.entity.Feed" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="5183.921382086919" y="845.0" />
+      <point x="5388.25" y="845.0" />
+      <point x="5388.25" y="2889.0" />
+      <point x="4448.671382086919" y="2889.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.UserController" target="com.example.toyshop.security.AuthenticatedUserService" relationship="DEPENDENCY">
+      <point x="0.0" y="92.5" />
+      <point x="651.921382086919" y="-198.0" />
+      <point x="1672.421382086919" y="-198.0" />
+      <point x="0.0" y="-44.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product_comment.ProductCommentRepository" target="com.example.toyshop.repository.product_comment.FindProductCommentByFilters" relationship="INTERFACE_GENERALIZATION">
+      <point x="89.0" y="31.5" />
+      <point x="-3080.49415398191" y="775.0" />
+      <point x="-2760.995284579748" y="775.0" />
+      <point x="-132.66666666666663" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.CategoryService" target="com.example.toyshop.mapper.CategoryMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-3976.75" y="2077.0" />
+      <point x="-4126.25" y="2077.0" />
+      <point x="0.0" y="-55.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductCommentService" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-4001.828617913081" y="127.0" />
+      <point x="-5350.5" y="127.0" />
+      <point x="-5350.5" y="2889.0" />
+      <point x="-5616.24415398191" y="2889.0" />
+      <point x="0.0" y="-405.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product_comment.FindProductCommentByFiltersImpl" target="com.example.toyshop.repository.product_comment.FindProductCommentByFilters" relationship="REALIZATION">
+      <point x="113.75" y="44.0" />
+      <point x="-286.5" y="855.0" />
+      <point x="-2495.661951246415" y="855.0" />
+      <point x="132.66666666666652" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product_comment.ProductCommentRepository" target="com.example.toyshop.entity.ProductComment" relationship="DEPENDENCY">
+      <point x="-89.0" y="31.5" />
+      <point x="-3258.49415398191" y="775.0" />
+      <point x="-3308.828617913081" y="775.0" />
+      <point x="-3308.828617913081" y="3843.0" />
+      <point x="-2223.665536068829" y="3843.0" />
+      <point x="0.0" y="-249.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.OrderController" target="com.example.toyshop.security.AuthenticatedUserService" relationship="DEPENDENCY">
+      <point x="0.0" y="116.5" />
+      <point x="-1200.953617913081" y="-188.0" />
+      <point x="1672.421382086919" y="-188.0" />
+      <point x="0.0" y="-44.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.product.ProductListDTO" target="com.example.toyshop.dto.product.ProductImageDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="297.0" />
+      <point x="-6720.108537392456" y="2939.0" />
+      <point x="-6779.608537392456" y="2939.0" />
+      <point x="-6779.608537392456" y="4540.0" />
+      <point x="-7211.540536068829" y="4540.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.FeedCategoryMapper" target="com.example.toyshop.dto.feed_category.FeedCategoryCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="6194.209463931171" y="2057.0" />
+      <point x="6660.209463931171" y="2057.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.FeedCommentMapper" target="com.example.toyshop.dto.feed_comment.FeedCommentDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="2849.88084601809" y="815.0" />
+      <point x="2583.38084601809" y="815.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.User" target="com.example.toyshop.security.Role" relationship="DEPENDENCY">
+      <point x="0.0" y="273.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Category" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="-225.0" />
+      <point x="-4803.74415398191" y="3983.0" />
+      <point x="-5616.24415398191" y="3983.0" />
+      <point x="0.0" y="405.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Product" target="com.example.toyshop.entity.Category" relationship="DEPENDENCY">
+      <point x="0.0" y="405.0" />
+      <point x="-5616.24415398191" y="3983.0" />
+      <point x="-4803.74415398191" y="3983.0" />
+      <point x="0.0" y="-225.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedService" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="5183.921382086919" y="845.0" />
+      <point x="5453.209463931171" y="845.0" />
+      <point x="5453.209463931171" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.feed_comment.FeedCommentDetailDTO" target="com.example.toyshop.dto.user.UserDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="177.0" />
+      <point x="2583.38084601809" y="3853.0" />
+      <point x="769.7094639311708" y="3853.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.UserMapper" target="com.example.toyshop.dto.user.UserCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="91.5" />
+      <point x="916.989383410546" y="2057.0" />
+      <point x="578.8808460180899" y="2057.0" />
+      <point x="578.8808460180899" y="2077.0" />
+      <point x="764.489383410546" y="2077.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.order.OrderListDTO" target="com.example.toyshop.dto.order.OrderItemListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="273.0" />
+      <point x="-1064.625" y="1485.0" />
+      <point x="-1725.75" y="1485.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.OrderItemMapper" target="com.example.toyshop.entity.OrderItem" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="-1831.760616589454" y="1465.0" />
+      <point x="-1438.1655360688292" y="1465.0" />
+      <point x="-1438.1655360688292" y="3923.0" />
+      <point x="-1375.0" y="3923.0" />
+      <point x="-1375.0" y="5822.0" />
+      <point x="-1392.4155360688292" y="5822.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.UserController" target="com.example.toyshop.service.UserService" relationship="DEPENDENCY">
+      <point x="0.0" y="92.5" />
+      <point x="651.921382086919" y="-168.0" />
+      <point x="1359.7094639311708" y="-168.0" />
+      <point x="1359.7094639311708" y="785.0" />
+      <point x="1931.3914626075439" y="785.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product.FindProductByFilters" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="31.5" />
+      <point x="-5741.608537392456" y="2889.0" />
+      <point x="-5616.24415398191" y="2889.0" />
+      <point x="0.0" y="-405.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.UserService" target="com.example.toyshop.security.Status" relationship="DEPENDENCY">
+      <point x="0.0" y="140.0" />
+      <point x="1931.3914626075439" y="1455.0" />
+      <point x="2041.6414626075439" y="1455.0" />
+      <point x="2041.6414626075439" y="3903.0" />
+      <point x="3903.25" y="3903.0" />
+      <point x="3903.25" y="5145.0" />
+      <point x="2854.209463931171" y="5145.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductCommentService" target="com.example.toyshop.dto.product_comment.ProductCommentCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-4001.828617913081" y="127.0" />
+      <point x="-7829.108537392456" y="127.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedService" target="com.example.toyshop.service.UserService" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="5183.921382086919" y="825.0" />
+      <point x="1931.3914626075439" y="825.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.OrderController" target="com.example.toyshop.dto.order.OrderListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.5" />
+      <point x="-1200.953617913081" y="-168.0" />
+      <point x="-1876.4941539819101" y="-168.0" />
+      <point x="-1876.4941539819101" y="775.0" />
+      <point x="-1064.625" y="775.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.product_comment.ProductCommentDetailDTO" target="com.example.toyshop.dto.product.ProductCategoryDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="201.0" />
+      <point x="-5207.5" y="2939.0" />
+      <point x="-4918.49415398191" y="2939.0" />
+      <point x="-4918.49415398191" y="3833.0" />
+      <point x="-3864.165536068829" y="3833.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.feed_category.FeedCategoryListDTO" target="com.example.toyshop.dto.feed.FeedDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="177.0" />
+      <point x="6405.709463931171" y="2899.0" />
+      <point x="4103.171382086919" y="2899.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.FeedMapper" target="com.example.toyshop.entity.Feed" relationship="DEPENDENCY">
+      <point x="0.0" y="43.5" />
+      <point x="5197.25" y="1485.0" />
+      <point x="5275.959463931171" y="1485.0" />
+      <point x="5275.959463931171" y="2889.0" />
+      <point x="4448.671382086919" y="2889.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.service.UserService" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="137.0" />
+      <point x="-149.260616589454" y="137.0" />
+      <point x="-149.260616589454" y="785.0" />
+      <point x="1931.3914626075439" y="785.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.CategoryController" target="com.example.toyshop.dto.category.CategoryCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.5" />
+      <point x="-3073.328617913081" y="1455.0" />
+      <point x="-3022.99415398191" y="1455.0" />
+      <point x="-3022.99415398191" y="2939.0" />
+      <point x="-3928.828617913081" y="2939.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Feed" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="273.0" />
+      <point x="4448.671382086919" y="3863.0" />
+      <point x="4873.75" y="3863.0" />
+      <point x="4873.75" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductCommentController" target="com.example.toyshop.security.AuthenticatedUserService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-3490.828617913081" y="-178.0" />
+      <point x="1672.421382086919" y="-178.0" />
+      <point x="0.0" y="-44.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductImageService" target="com.example.toyshop.repository.ProductImageRepository" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-7677.108537392456" y="2939.0" />
+      <point x="-7588.608537392456" y="2939.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product.FindProductByFiltersImpl" target="com.example.toyshop.repository.product.FindProductByFilters" relationship="REALIZATION">
+      <point x="-118.0" y="44.0" />
+      <point x="-4891.75" y="2067.0" />
+      <point x="-5584.275204059123" y="2067.0" />
+      <point x="157.33333333333303" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedCommentController" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="2317.13084601809" y="-198.0" />
+      <point x="3971.38084601809" y="-198.0" />
+      <point x="3971.38084601809" y="3873.0" />
+      <point x="4638.25" y="3873.0" />
+      <point x="4638.25" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="137.0" />
+      <point x="-149.260616589454" y="137.0" />
+      <point x="-149.260616589454" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.FeedMapper" target="com.example.toyshop.dto.feed.FeedCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="43.5" />
+      <point x="5197.25" y="1475.0" />
+      <point x="5698.75" y="1475.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product.ProductRepository" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="48.25" y="14.0" />
+      <point x="-5551.5" y="2057.0" />
+      <point x="-5495.108537392456" y="2057.0" />
+      <point x="-5495.108537392456" y="2889.0" />
+      <point x="-5616.24415398191" y="2889.0" />
+      <point x="0.0" y="-405.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.service.ProductImageService" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-7390.040536068829" y="1465.0" />
+      <point x="-7390.040536068829" y="2057.0" />
+      <point x="-7677.108537392456" y="2057.0" />
+      <point x="0.0" y="-68.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductCommentController" target="com.example.toyshop.service.ProductCommentService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-3490.828617913081" y="-168.0" />
+      <point x="-4001.828617913081" y="-168.0" />
+      <point x="0.0" y="-68.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductCommentService" target="com.example.toyshop.dto.product_comment.ProductCommentDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-4001.828617913081" y="127.0" />
+      <point x="-3429.828617913081" y="127.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.user.UserDTO" target="com.example.toyshop.security.Role" relationship="DEPENDENCY">
+      <point x="0.0" y="153.0" />
+      <point x="769.7094639311708" y="5135.0" />
+      <point x="1818.7094639311708" y="5135.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.UserController" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="92.5" />
+      <point x="651.921382086919" y="-168.0" />
+      <point x="284.489383410546" y="-168.0" />
+      <point x="284.489383410546" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.product.ProductDetailDTO" target="com.example.toyshop.dto.product.ProductImageDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="369.0" />
+      <point x="-6429.108537392456" y="2929.0" />
+      <point x="-6369.608537392456" y="2929.0" />
+      <point x="-6369.608537392456" y="4540.0" />
+      <point x="-7211.540536068829" y="4540.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.User" target="com.example.toyshop.security.Status" relationship="DEPENDENCY">
+      <point x="0.0" y="273.0" />
+      <point x="1818.7094639311708" y="5155.0" />
+      <point x="2854.209463931171" y="5155.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.JwtService" target="com.example.toyshop.security.Role" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="7172.709463931171" y="5175.0" />
+      <point x="1818.7094639311708" y="5175.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.product.ProductDetailDTO" target="com.example.toyshop.dto.product_comment.ProductCommentDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="369.0" />
+      <point x="-6429.108537392456" y="2909.0" />
+      <point x="-3429.828617913081" y="2909.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedCategoryController" target="com.example.toyshop.dto.feed_category.FeedCategoryCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.5" />
+      <point x="6671.209463931171" y="2087.0" />
+      <point x="6660.209463931171" y="2087.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductCommentService" target="com.example.toyshop.repository.product_comment.FindProductCommentByFilters" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-4001.828617913081" y="127.0" />
+      <point x="-2628.328617913081" y="127.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.dto.user.UserDetailDTO" target="com.example.toyshop.dto.order.OrderCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="201.0" />
+      <point x="466.989383410546" y="2969.0" />
+      <point x="127.989383410546" y="2969.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.CategoryRepository" target="com.example.toyshop.entity.Category" relationship="DEPENDENCY">
+      <point x="0.0" y="31.5" />
+      <point x="-3571.328617913081" y="2929.0" />
+      <point x="-3813.828617913081" y="2929.0" />
+      <point x="-3813.828617913081" y="3823.0" />
+      <point x="-4803.74415398191" y="3823.0" />
+      <point x="0.0" y="-225.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product_comment.FindProductCommentByFiltersImpl" target="com.example.toyshop.repository.CategoryRepository" relationship="DEPENDENCY">
+      <point x="-113.75" y="44.0" />
+      <point x="-514.0" y="775.0" />
+      <point x="-616.3691539819101" y="775.0" />
+      <point x="-616.3691539819101" y="2077.0" />
+      <point x="-3571.328617913081" y="2077.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.security.JwtAuthenticationFilter" target="com.example.toyshop.service.UserService" relationship="DEPENDENCY">
+      <point x="0.0" y="44.0" />
+      <point x="7172.709463931171" y="835.0" />
+      <point x="1931.3914626075439" y="835.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedCommentController" target="com.example.toyshop.dto.feed_comment.FeedCommentCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="2317.13084601809" y="795.0" />
+      <point x="2849.88084601809" y="795.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedService" target="com.example.toyshop.repository.feed.FeedRepository" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="5183.921382086919" y="845.0" />
+      <point x="4780.334463931171" y="845.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductCommentController" target="com.example.toyshop.dto.product_comment.ProductCommentCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-3490.828617913081" y="-168.0" />
+      <point x="-7867.5" y="-168.0" />
+      <point x="-7867.5" y="815.0" />
+      <point x="-7829.108537392456" y="815.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.ProductComment" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="249.0" />
+      <point x="-2223.665536068829" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product.FindProductByFiltersImpl" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="118.0" y="44.0" />
+      <point x="-4655.75" y="2889.0" />
+      <point x="-5616.24415398191" y="2889.0" />
+      <point x="0.0" y="-405.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.order.OrderListDTO" target="com.example.toyshop.entity.OrderStatus" relationship="DEPENDENCY">
+      <point x="0.0" y="273.0" />
+      <point x="-1064.625" y="3873.0" />
+      <point x="-564.078617913081" y="3873.0" />
+      <point x="-564.078617913081" y="5822.0" />
+      <point x="-441.04053606882917" y="5822.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.User" target="com.example.toyshop.entity.ProductComment" relationship="DEPENDENCY">
+      <point x="0.0" y="-273.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="-2223.665536068829" y="4540.0" />
+      <point x="0.0" y="249.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.JwtAuthenticationFilter" target="com.example.toyshop.security.JwtService" relationship="DEPENDENCY">
+      <point x="0.0" y="44.0" />
+      <point x="0.0" y="-68.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCommentService" target="com.example.toyshop.service.UserService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="3021.921382086919" y="137.0" />
+      <point x="2451.38084601809" y="137.0" />
+      <point x="2451.38084601809" y="785.0" />
+      <point x="1931.3914626075439" y="785.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.service.CategoryService" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1455.0" />
+      <point x="-3976.75" y="1455.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.FeedCategory.FeedCategoryBuilder" target="com.example.toyshop.entity.FeedCategory" relationship="INNER_CLASS">
+      <point x="0.0" y="104.0" />
+      <point x="3781.13084601809" y="2057.0" />
+      <point x="4429.709463931171" y="2057.0" />
+      <point x="-88.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product.FindProductByFiltersImpl" target="com.example.toyshop.repository.CategoryRepository" relationship="DEPENDENCY">
+      <point x="118.0" y="44.0" />
+      <point x="-4655.75" y="2067.0" />
+      <point x="-3571.328617913081" y="2067.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.dto.user.UserDetailDTO" target="com.example.toyshop.security.Role" relationship="DEPENDENCY">
+      <point x="0.0" y="201.0" />
+      <point x="466.989383410546" y="2889.0" />
+      <point x="539.75" y="2889.0" />
+      <point x="539.75" y="5135.0" />
+      <point x="1818.7094639311708" y="5135.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductCommentController" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-3490.828617913081" y="-168.0" />
+      <point x="-2357.49415398191" y="-168.0" />
+      <point x="-2357.49415398191" y="3953.0" />
+      <point x="-1760.9155360688292" y="3953.0" />
+      <point x="-1760.9155360688292" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.CategoryService" target="com.example.toyshop.entity.Category" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-3976.75" y="2077.0" />
+      <point x="-4456.49415398191" y="2077.0" />
+      <point x="-4456.49415398191" y="3823.0" />
+      <point x="-4803.74415398191" y="3823.0" />
+      <point x="0.0" y="-225.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductCommentController" target="com.example.toyshop.dto.product_comment.ProductCommentDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-3490.828617913081" y="-168.0" />
+      <point x="-2357.49415398191" y="-168.0" />
+      <point x="-2357.49415398191" y="2949.0" />
+      <point x="-3429.828617913081" y="2949.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.UserService" target="com.example.toyshop.security.Role" relationship="DEPENDENCY">
+      <point x="0.0" y="140.0" />
+      <point x="1931.3914626075439" y="1455.0" />
+      <point x="2041.6414626075439" y="1455.0" />
+      <point x="2041.6414626075439" y="3913.0" />
+      <point x="2534.5" y="3913.0" />
+      <point x="2534.5" y="5135.0" />
+      <point x="1818.7094639311708" y="5135.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedController" target="com.example.toyshop.dto.feed.FeedCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="92.0" />
+      <point x="5593.671382086919" y="-148.0" />
+      <point x="6187.959463931171" y="-148.0" />
+      <point x="6187.959463931171" y="1465.0" />
+      <point x="5698.75" y="1465.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductImageController" target="com.example.toyshop.service.ProductImageService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-8112.0" y="2057.0" />
+      <point x="-7677.108537392456" y="2057.0" />
+      <point x="0.0" y="-68.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderItemService" target="com.example.toyshop.mapper.OrderItemMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-2111.49415398191" y="785.0" />
+      <point x="-1831.760616589454" y="785.0" />
+      <point x="0.0" y="-55.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderItemService" target="com.example.toyshop.dto.order.OrderItemListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-2111.49415398191" y="865.0" />
+      <point x="-2084.915536068829" y="865.0" />
+      <point x="-2084.915536068829" y="1455.0" />
+      <point x="-1725.75" y="1455.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductCommentMapper" target="com.example.toyshop.dto.product_comment.ProductCommentDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="67.5" />
+      <point x="-4730.578617913081" y="835.0" />
+      <point x="-5207.5" y="835.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.UserService" target="com.example.toyshop.dto.user.UserCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="140.0" />
+      <point x="1931.3914626075439" y="2087.0" />
+      <point x="764.489383410546" y="2087.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.AuthenticatedUserService" target="com.example.toyshop.security.UserDetailsCustom" relationship="DEPENDENCY">
+      <point x="0.0" y="44.0" />
+      <point x="1672.421382086919" y="127.0" />
+      <point x="1795.5" y="127.0" />
+      <point x="0.0" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductImageService" target="com.example.toyshop.mapper.ProductImageMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-7677.108537392456" y="2929.0" />
+      <point x="-7247.108537392456" y="2929.0" />
+      <point x="0.0" y="-43.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.mapper.ProductImageMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-7247.108537392456" y="1465.0" />
+      <point x="0.0" y="-43.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedService" target="com.example.toyshop.service.FeedCategoryService" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="5183.921382086919" y="775.0" />
+      <point x="5940.459463931171" y="775.0" />
+      <point x="0.0" y="-80.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.OrderItem" target="com.example.toyshop.entity.Order" relationship="DEPENDENCY">
+      <point x="0.0" y="-201.0" />
+      <point x="-1392.4155360688292" y="5842.0" />
+      <point x="-824.0" y="5842.0" />
+      <point x="0.0" y="297.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Order" target="com.example.toyshop.entity.OrderItem" relationship="DEPENDENCY">
+      <point x="0.0" y="297.0" />
+      <point x="-824.0" y="5842.0" />
+      <point x="-1392.4155360688292" y="5842.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.UserService" target="com.example.toyshop.dto.user.UserDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="140.0" />
+      <point x="1931.3914626075439" y="3853.0" />
+      <point x="769.7094639311708" y="3853.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCategoryService" target="com.example.toyshop.entity.FeedCategory" relationship="DEPENDENCY">
+      <point x="0.0" y="80.0" />
+      <point x="5940.459463931171" y="1475.0" />
+      <point x="6257.171382086919" y="1475.0" />
+      <point x="6257.171382086919" y="1515.0" />
+      <point x="5982.709463931171" y="1515.0" />
+      <point x="5982.709463931171" y="2067.0" />
+      <point x="4960.13084601809" y="2067.0" />
+      <point x="4960.13084601809" y="2097.0" />
+      <point x="4605.709463931171" y="2097.0" />
+      <point x="88.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductImageController" target="com.example.toyshop.service.ProductService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-8112.0" y="805.0" />
+      <point x="-6050.953617913081" y="805.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedService" target="com.example.toyshop.dto.feed.FeedCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="5183.921382086919" y="845.0" />
+      <point x="5568.209463931171" y="845.0" />
+      <point x="5568.209463931171" y="1465.0" />
+      <point x="5698.75" y="1465.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCategoryService" target="com.example.toyshop.dto.feed_category.FeedCategoryCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="80.0" />
+      <point x="5940.459463931171" y="1475.0" />
+      <point x="6257.171382086919" y="1475.0" />
+      <point x="6257.171382086919" y="1515.0" />
+      <point x="6660.209463931171" y="1515.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.feed.FeedListDTO" target="com.example.toyshop.dto.feed_comment.FeedCommentListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="249.0" />
+      <point x="5073.459463931171" y="2057.0" />
+      <point x="4902.209463931171" y="2057.0" />
+      <point x="4902.209463931171" y="2087.0" />
+      <point x="2985.38084601809" y="2087.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderItemService" target="com.example.toyshop.repository.OrderItemRepository" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-2111.49415398191" y="865.0" />
+      <point x="-2214.75" y="865.0" />
+      <point x="-2214.75" y="3943.0" />
+      <point x="-1711.9155360688292" y="3943.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.repository.product.FindProductByFilters" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-5808.5" y="1465.0" />
+      <point x="-5808.5" y="2057.0" />
+      <point x="-5898.94187072579" y="2057.0" />
+      <point x="-157.33333333333348" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductCommentService" target="com.example.toyshop.entity.ProductComment" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-4001.828617913081" y="127.0" />
+      <point x="-2837.828617913081" y="127.0" />
+      <point x="-2837.828617913081" y="3843.0" />
+      <point x="-2223.665536068829" y="3843.0" />
+      <point x="0.0" y="-249.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.product.ProductDetailDTO" target="com.example.toyshop.dto.category.CategoryProductDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="369.0" />
+      <point x="-6429.108537392456" y="2939.0" />
+      <point x="-6574.608537392456" y="2939.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.OrderMapper" target="com.example.toyshop.dto.order.OrderListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="67.5" />
+      <point x="-906.125" y="785.0" />
+      <point x="-1064.625" y="785.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedCommentController" target="com.example.toyshop.dto.feed_comment.FeedCommentDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="2317.13084601809" y="805.0" />
+      <point x="2583.38084601809" y="805.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductCommentController" target="com.example.toyshop.dto.product_comment.ProductCommentDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-3490.828617913081" y="-168.0" />
+      <point x="-7867.5" y="-168.0" />
+      <point x="-7867.5" y="785.0" />
+      <point x="-5207.5" y="785.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.dto.product.ProductCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-5984.0" y="1465.0" />
+      <point x="-5984.0" y="2067.0" />
+      <point x="-6103.108537392456" y="2067.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedController" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="92.0" />
+      <point x="5593.671382086919" y="-148.0" />
+      <point x="7407.709463931171" y="-148.0" />
+      <point x="7407.709463931171" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Order.OrderBuilder" target="com.example.toyshop.entity.Order" relationship="INNER_CLASS">
+      <point x="0.0" y="152.0" />
+      <point x="-1208.5" y="5145.0" />
+      <point x="-927.75" y="5145.0" />
+      <point x="-103.75" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.FeedCommentRepository" target="com.example.toyshop.entity.FeedComment" relationship="DEPENDENCY">
+      <point x="0.0" y="31.5" />
+      <point x="3323.88084601809" y="3893.0" />
+      <point x="4201.25" y="3893.0" />
+      <point x="0.0" y="-225.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.UserService" target="com.example.toyshop.mapper.UserMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="140.0" />
+      <point x="1931.3914626075439" y="1465.0" />
+      <point x="916.989383410546" y="1465.0" />
+      <point x="0.0" y="-91.5" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.OrderItemMapper" target="com.example.toyshop.dto.order.OrderItemListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="-1831.760616589454" y="1465.0" />
+      <point x="-1438.1655360688292" y="1465.0" />
+      <point x="-1438.1655360688292" y="1475.0" />
+      <point x="-1725.75" y="1475.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.OrderRepository" target="com.example.toyshop.entity.Order" relationship="DEPENDENCY">
+      <point x="0.0" y="31.5" />
+      <point x="-710.078617913081" y="5135.0" />
+      <point x="-720.25" y="5135.0" />
+      <point x="103.75" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductCommentMapper" target="com.example.toyshop.dto.product_comment.ProductCommentCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="67.5" />
+      <point x="-4730.578617913081" y="825.0" />
+      <point x="-7829.108537392456" y="825.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.feed.FeedRepository" target="com.example.toyshop.entity.Feed" relationship="DEPENDENCY">
+      <point x="68.25" y="31.5" />
+      <point x="4848.584463931171" y="1465.0" />
+      <point x="4898.459463931171" y="1465.0" />
+      <point x="4898.459463931171" y="2077.0" />
+      <point x="4742.13084601809" y="2077.0" />
+      <point x="4742.13084601809" y="2889.0" />
+      <point x="4448.671382086919" y="2889.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.UserMapper" target="com.example.toyshop.dto.user.UserDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="91.5" />
+      <point x="916.989383410546" y="2057.0" />
+      <point x="578.8808460180899" y="2057.0" />
+      <point x="578.8808460180899" y="2097.0" />
+      <point x="466.989383410546" y="2097.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.OrderItem" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="-201.0" />
+      <point x="-1392.4155360688292" y="5822.0" />
+      <point x="-5616.24415398191" y="5822.0" />
+      <point x="0.0" y="405.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCategoryService" target="com.example.toyshop.repository.FeedCategoryRepository" relationship="DEPENDENCY">
+      <point x="0.0" y="80.0" />
+      <point x="5940.459463931171" y="1475.0" />
+      <point x="6257.171382086919" y="1475.0" />
+      <point x="6257.171382086919" y="1505.0" />
+      <point x="4740.959463931171" y="1505.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.controller.OrderController" target="com.example.toyshop.service.OrderItemService" relationship="DEPENDENCY">
+      <point x="0.0" y="116.5" />
+      <point x="-1200.953617913081" y="-168.0" />
+      <point x="-2111.49415398191" y="-168.0" />
+      <point x="0.0" y="-68.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.UserRepository" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="31.5" />
+      <point x="2389.0" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.OrderController" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="116.5" />
+      <point x="-1200.953617913081" y="-168.0" />
+      <point x="-28.510616589454003" y="-168.0" />
+      <point x="-28.510616589454003" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.product_comment.ProductCommentDetailDTO" target="com.example.toyshop.dto.user.UserDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="201.0" />
+      <point x="-5207.5" y="2929.0" />
+      <point x="-4918.49415398191" y="2929.0" />
+      <point x="-4918.49415398191" y="3853.0" />
+      <point x="769.7094639311708" y="3853.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.mapper.OrderItemMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="137.0" />
+      <point x="-1831.760616589454" y="137.0" />
+      <point x="0.0" y="-55.5" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.CategoryMapper" target="com.example.toyshop.entity.Category" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="-4126.25" y="2889.0" />
+      <point x="-4213.74415398191" y="2889.0" />
+      <point x="-4213.74415398191" y="2949.0" />
+      <point x="-4344.828617913081" y="2949.0" />
+      <point x="-4344.828617913081" y="3823.0" />
+      <point x="-4803.74415398191" y="3823.0" />
+      <point x="0.0" y="-225.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.repository.OrderRepository" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="137.0" />
+      <point x="-1211.125" y="137.0" />
+      <point x="-1211.125" y="3883.0" />
+      <point x="-710.078617913081" y="3883.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.FeedMapper" target="com.example.toyshop.dto.feed.FeedListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="43.5" />
+      <point x="5197.25" y="1495.0" />
+      <point x="5073.459463931171" y="1495.0" />
+      <point x="0.0" y="-249.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product.ProductRepository" target="com.example.toyshop.repository.product.FindProductByFilters" relationship="INTERFACE_GENERALIZATION">
+      <point x="-48.25" y="14.0" />
+      <point x="-5648.0" y="2057.0" />
+      <point x="-5741.608537392456" y="2057.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.dto.product.ProductDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-6429.108537392456" y="1465.0" />
+      <point x="0.0" y="-369.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.FeedCommentMapper" target="com.example.toyshop.dto.feed_comment.FeedCommentListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="2849.88084601809" y="805.0" />
+      <point x="2985.38084601809" y="805.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.product.ProductListDTO" target="com.example.toyshop.dto.category.CategoryProductDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="297.0" />
+      <point x="-6720.108537392456" y="2929.0" />
+      <point x="-6574.608537392456" y="2929.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductCommentService" target="com.example.toyshop.repository.product_comment.ProductCommentRepository" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-4001.828617913081" y="127.0" />
+      <point x="-3169.49415398191" y="127.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.repository.OrderItemRepository" target="com.example.toyshop.entity.OrderItem" relationship="DEPENDENCY">
+      <point x="0.0" y="31.5" />
+      <point x="-1711.9155360688292" y="5822.0" />
+      <point x="-1392.4155360688292" y="5822.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.AuthenticatedUserService" target="com.example.toyshop.service.UserService" relationship="DEPENDENCY">
+      <point x="0.0" y="44.0" />
+      <point x="1672.421382086919" y="137.0" />
+      <point x="1570.0" y="137.0" />
+      <point x="1570.0" y="785.0" />
+      <point x="1931.3914626075439" y="785.0" />
+      <point x="0.0" y="-140.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.CategoryMapper" target="com.example.toyshop.dto.category.CategoryCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="-4126.25" y="2889.0" />
+      <point x="-4213.74415398191" y="2889.0" />
+      <point x="-4213.74415398191" y="2929.0" />
+      <point x="-3928.828617913081" y="2929.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.FeedComment" target="com.example.toyshop.entity.Feed" relationship="DEPENDENCY">
+      <point x="0.0" y="-225.0" />
+      <point x="4201.25" y="3903.0" />
+      <point x="4873.75" y="3903.0" />
+      <point x="4873.75" y="3863.0" />
+      <point x="4448.671382086919" y="3863.0" />
+      <point x="0.0" y="273.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Feed" target="com.example.toyshop.entity.FeedComment" relationship="DEPENDENCY">
+      <point x="0.0" y="273.0" />
+      <point x="4448.671382086919" y="3863.0" />
+      <point x="4873.75" y="3863.0" />
+      <point x="4873.75" y="3903.0" />
+      <point x="4201.25" y="3903.0" />
+      <point x="0.0" y="-225.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.dto.order.OrderItemListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="137.0" />
+      <point x="-1668.260616589454" y="137.0" />
+      <point x="-1668.260616589454" y="1455.0" />
+      <point x="-1725.75" y="1455.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-5460.483537392456" y="1465.0" />
+      <point x="-5460.483537392456" y="2889.0" />
+      <point x="-5616.24415398191" y="2889.0" />
+      <point x="0.0" y="-405.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.FeedComment" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="225.0" />
+      <point x="4201.25" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.feed.FindFeedByFilters" target="com.example.toyshop.entity.Feed" relationship="DEPENDENCY">
+      <point x="0.0" y="31.5" />
+      <point x="4313.459463931171" y="2889.0" />
+      <point x="4448.671382086919" y="2889.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.feed_comment.FeedCommentDetailDTO" target="com.example.toyshop.dto.feed.FeedDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="177.0" />
+      <point x="2583.38084601809" y="2899.0" />
+      <point x="4103.171382086919" y="2899.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.feed.FeedRepository" target="com.example.toyshop.repository.feed.FindFeedByFilters" relationship="INTERFACE_GENERALIZATION">
+      <point x="-68.25" y="31.5" />
+      <point x="4712.084463931171" y="1475.0" />
+      <point x="4409.459463931171" y="1475.0" />
+      <point x="96.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.controller.ProductController" target="com.example.toyshop.dto.product.ProductListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="92.0" />
+      <point x="-6638.953617913081" y="775.0" />
+      <point x="-7544.75" y="775.0" />
+      <point x="-7544.75" y="2087.0" />
+      <point x="-6720.108537392456" y="2087.0" />
+      <point x="0.0" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.UserDetailsCustom.UserDetailsCustomBuilder" target="com.example.toyshop.security.UserDetailsCustom" relationship="INNER_CLASS">
+      <point x="-120.5" y="-116.0" />
+      <point x="1200.489383410546" y="805.0" />
+      <point x="1688.0" y="805.0" />
+      <point x="-107.5" y="297.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.product_comment.ProductCommentDTO" target="com.example.toyshop.dto.user.UserDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="201.0" />
+      <point x="-3429.828617913081" y="3853.0" />
+      <point x="769.7094639311708" y="3853.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.CategoryMapper" target="com.example.toyshop.dto.category.CategoryListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="-4126.25" y="2889.0" />
+      <point x="-4213.74415398191" y="2889.0" />
+      <point x="-4213.74415398191" y="2939.0" />
+      <point x="-4193.828617913081" y="2939.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductMapper" target="com.example.toyshop.dto.product.ProductListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="91.5" />
+      <point x="-6197.25" y="2097.0" />
+      <point x="-6720.108537392456" y="2097.0" />
+      <point x="0.0" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.ProductComment" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="-249.0" />
+      <point x="-2223.665536068829" y="3973.0" />
+      <point x="-5616.24415398191" y="3973.0" />
+      <point x="0.0" y="405.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Product" target="com.example.toyshop.entity.ProductComment" relationship="DEPENDENCY">
+      <point x="0.0" y="405.0" />
+      <point x="-5616.24415398191" y="3973.0" />
+      <point x="-2223.665536068829" y="3973.0" />
+      <point x="0.0" y="-249.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.product_comment.FindProductCommentByFiltersImpl" target="com.example.toyshop.entity.ProductComment" relationship="DEPENDENCY">
+      <point x="-113.75" y="44.0" />
+      <point x="-514.0" y="775.0" />
+      <point x="-616.3691539819101" y="775.0" />
+      <point x="-616.3691539819101" y="3843.0" />
+      <point x="-2223.665536068829" y="3843.0" />
+      <point x="0.0" y="-249.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductMapper" target="com.example.toyshop.dto.product.ProductDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="91.5" />
+      <point x="-6197.25" y="2107.0" />
+      <point x="-6429.108537392456" y="2107.0" />
+      <point x="0.0" y="-369.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.UserDetailsCustom" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="107.5" y="297.0" />
+      <point x="1903.0" y="775.0" />
+      <point x="1559.5" y="775.0" />
+      <point x="1559.5" y="815.0" />
+      <point x="1572.489383410546" y="815.0" />
+      <point x="1572.489383410546" y="3953.0" />
+      <point x="1818.7094639311708" y="3953.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.mapper.OrderMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="137.0" />
+      <point x="-906.125" y="137.0" />
+      <point x="0.0" y="-67.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductImageService" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-7677.108537392456" y="2919.0" />
+      <point x="-5616.24415398191" y="2919.0" />
+      <point x="0.0" y="-405.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.category.CategoryListDTO" target="com.example.toyshop.dto.product.ProductCategoryDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="177.0" />
+      <point x="-4193.828617913081" y="3833.0" />
+      <point x="-3864.165536068829" y="3833.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.order.OrderCreateDTO" target="com.example.toyshop.entity.OrderStatus" relationship="DEPENDENCY">
+      <point x="0.0" y="201.0" />
+      <point x="127.989383410546" y="3823.0" />
+      <point x="130.39146260754387" y="3823.0" />
+      <point x="130.39146260754387" y="5822.0" />
+      <point x="-441.04053606882917" y="5822.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedCategoryController" target="com.example.toyshop.service.FeedCategoryService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.5" />
+      <point x="6671.209463931171" y="785.0" />
+      <point x="5940.459463931171" y="785.0" />
+      <point x="0.0" y="-80.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.dto.order.OrderCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="137.0" />
+      <point x="-149.260616589454" y="137.0" />
+      <point x="-149.260616589454" y="2889.0" />
+      <point x="127.989383410546" y="2889.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.entity.ProductImage" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-6930.608537392456" y="1465.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.UserController" target="com.example.toyshop.mapper.UserMapper" relationship="DEPENDENCY">
+      <point x="0.0" y="92.5" />
+      <point x="651.921382086919" y="-168.0" />
+      <point x="916.989383410546" y="-168.0" />
+      <point x="0.0" y="-91.5" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedController" target="com.example.toyshop.dto.feed.FeedListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="92.0" />
+      <point x="5593.671382086919" y="-148.0" />
+      <point x="5692.959463931171" y="-148.0" />
+      <point x="5692.959463931171" y="1455.0" />
+      <point x="5073.459463931171" y="1455.0" />
+      <point x="0.0" y="-249.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedCommentController" target="com.example.toyshop.service.FeedCommentService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="2317.13084601809" y="-198.0" />
+      <point x="3021.921382086919" y="-198.0" />
+      <point x="0.0" y="-68.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.repository.product.ProductRepository" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-5599.75" y="1465.0" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Feed" target="com.example.toyshop.entity.FeedCategory" relationship="DEPENDENCY">
+      <point x="0.0" y="-273.0" />
+      <point x="4448.671382086919" y="2889.0" />
+      <point x="4517.709463931171" y="2889.0" />
+      <point x="0.0" y="201.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.FeedCategory" target="com.example.toyshop.entity.Feed" relationship="DEPENDENCY">
+      <point x="0.0" y="201.0" />
+      <point x="4517.709463931171" y="2889.0" />
+      <point x="4448.671382086919" y="2889.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductMapper" target="com.example.toyshop.entity.Product" relationship="DEPENDENCY">
+      <point x="0.0" y="91.5" />
+      <point x="-6197.25" y="2077.0" />
+      <point x="-5988.108537392456" y="2077.0" />
+      <point x="-5988.108537392456" y="2889.0" />
+      <point x="-5616.24415398191" y="2889.0" />
+      <point x="0.0" y="-405.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.UserService" target="com.example.toyshop.repository.UserRepository" relationship="DEPENDENCY">
+      <point x="0.0" y="140.0" />
+      <point x="1931.3914626075439" y="3933.0" />
+      <point x="2389.0" y="3933.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.service.OrderItemService" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="127.0" />
+      <point x="-2111.49415398191" y="127.0" />
+      <point x="0.0" y="-68.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderService" target="com.example.toyshop.entity.OrderItem" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-1200.953617913081" y="137.0" />
+      <point x="-1374.1655360688292" y="137.0" />
+      <point x="-1374.1655360688292" y="3903.0" />
+      <point x="-1042.0" y="3903.0" />
+      <point x="-1042.0" y="5822.0" />
+      <point x="-1392.4155360688292" y="5822.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductService" target="com.example.toyshop.dto.product.ProductListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-6050.953617913081" y="1465.0" />
+      <point x="-6720.108537392456" y="1465.0" />
+      <point x="0.0" y="-297.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.order.OrderCreateDTO" target="com.example.toyshop.dto.order.OrderItemCreateDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="201.0" />
+      <point x="127.989383410546" y="3823.0" />
+      <point x="130.39146260754387" y="3823.0" />
+      <point x="130.39146260754387" y="3923.0" />
+      <point x="-1159.0" y="3923.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.FeedCategoryMapper" target="com.example.toyshop.entity.FeedCategory" relationship="DEPENDENCY">
+      <point x="0.0" y="55.5" />
+      <point x="6194.209463931171" y="2077.0" />
+      <point x="4960.13084601809" y="2077.0" />
+      <point x="4960.13084601809" y="2097.0" />
+      <point x="4605.709463931171" y="2097.0" />
+      <point x="88.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductCommentMapper" target="com.example.toyshop.dto.product_comment.ProductCommentDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="67.5" />
+      <point x="-4730.578617913081" y="855.0" />
+      <point x="-3429.828617913081" y="855.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.feed.FindFeedByFiltersImpl" target="com.example.toyshop.repository.FeedCategoryRepository" relationship="DEPENDENCY">
+      <point x="-113.75" y="44.0" />
+      <point x="3619.63084601809" y="1465.0" />
+      <point x="4740.959463931171" y="1465.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.service.OrderItemService" target="com.example.toyshop.service.ProductService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-2111.49415398191" y="845.0" />
+      <point x="-6050.953617913081" y="845.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedCommentController" target="com.example.toyshop.dto.feed_comment.FeedCommentListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="2317.13084601809" y="2057.0" />
+      <point x="2985.38084601809" y="2057.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.UserMapper" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="91.5" />
+      <point x="916.989383410546" y="2057.0" />
+      <point x="578.8808460180899" y="2057.0" />
+      <point x="578.8808460180899" y="2087.0" />
+      <point x="649.489383410546" y="2087.0" />
+      <point x="649.489383410546" y="3873.0" />
+      <point x="1567.2094639311708" y="3873.0" />
+      <point x="1567.2094639311708" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.SecurityConfiguration" target="com.example.toyshop.security.JwtAuthenticationFilter" relationship="DEPENDENCY">
+      <point x="0.0" y="44.0" />
+      <point x="0.0" y="-44.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.CategoryController" target="com.example.toyshop.dto.category.CategoryListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.5" />
+      <point x="-3073.328617913081" y="2899.0" />
+      <point x="-4193.828617913081" y="2899.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedController" target="com.example.toyshop.security.AuthenticatedUserService" relationship="DEPENDENCY">
+      <point x="0.0" y="92.0" />
+      <point x="5593.671382086919" y="-158.0" />
+      <point x="1672.421382086919" y="-158.0" />
+      <point x="0.0" y="-44.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.UserService" target="com.example.toyshop.dto.user.UserDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="140.0" />
+      <point x="1931.3914626075439" y="2067.0" />
+      <point x="466.989383410546" y="2067.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.security.AuthenticatedUserService" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="44.0" />
+      <point x="1672.421382086919" y="137.0" />
+      <point x="1451.2094639311708" y="137.0" />
+      <point x="1451.2094639311708" y="795.0" />
+      <point x="1069.489383410546" y="795.0" />
+      <point x="1069.489383410546" y="3863.0" />
+      <point x="1567.2094639311708" y="3863.0" />
+      <point x="1567.2094639311708" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.product.ProductCategoryDTO" target="com.example.toyshop.dto.product.ProductImageDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="201.0" />
+      <point x="-3864.165536068829" y="4540.0" />
+      <point x="-7211.540536068829" y="4540.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCommentService" target="com.example.toyshop.service.FeedService" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="3021.921382086919" y="127.0" />
+      <point x="5183.921382086919" y="127.0" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductCommentService" target="com.example.toyshop.dto.product_comment.ProductCommentDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-4001.828617913081" y="127.0" />
+      <point x="-5207.5" y="127.0" />
+      <point x="0.0" y="-201.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.OrderController" target="com.example.toyshop.service.OrderService" relationship="DEPENDENCY">
+      <point x="0.0" y="116.5" />
+      <point x="0.0" y="-116.0" />
+    </edge>
+    <edge source="com.example.toyshop.controller.OrderController" target="com.example.toyshop.dto.order.OrderItemListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.5" />
+      <point x="-1200.953617913081" y="-168.0" />
+      <point x="-2346.49415398191" y="-168.0" />
+      <point x="-2346.49415398191" y="1455.0" />
+      <point x="-1725.75" y="1455.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.mapper.ProductImageMapper" target="com.example.toyshop.entity.ProductImage" relationship="DEPENDENCY">
+      <point x="0.0" y="43.5" />
+      <point x="-7247.108537392456" y="3823.0" />
+      <point x="-6930.608537392456" y="3823.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.feed.FeedListDTO" target="com.example.toyshop.dto.feed_category.FeedCategoryDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="249.0" />
+      <point x="5073.459463931171" y="2057.0" />
+      <point x="4902.209463931171" y="2057.0" />
+      <point x="4902.209463931171" y="2107.0" />
+      <point x="4950.13084601809" y="2107.0" />
+      <point x="0.0" y="-129.0" />
+    </edge>
+    <edge source="com.example.toyshop.entity.Order" target="com.example.toyshop.entity.OrderStatus" relationship="DEPENDENCY">
+      <point x="0.0" y="297.0" />
+      <point x="-824.0" y="5832.0" />
+      <point x="-441.04053606882917" y="5832.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.ProductCommentService" target="com.example.toyshop.entity.User" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="-4001.828617913081" y="127.0" />
+      <point x="-2418.828617913081" y="127.0" />
+      <point x="-2418.828617913081" y="3963.0" />
+      <point x="-1792.9941539819101" y="3963.0" />
+      <point x="-1792.9941539819101" y="4540.0" />
+      <point x="1818.7094639311708" y="4540.0" />
+      <point x="0.0" y="-273.0" />
+    </edge>
+    <edge source="com.example.toyshop.repository.ProductImageRepository" target="com.example.toyshop.entity.ProductImage" relationship="DEPENDENCY">
+      <point x="0.0" y="31.5" />
+      <point x="-7588.608537392456" y="3833.0" />
+      <point x="-6930.608537392456" y="3833.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.dto.order.OrderListDTO" target="com.example.toyshop.dto.user.UserDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="273.0" />
+      <point x="-1064.625" y="1455.0" />
+      <point x="-990.875" y="1455.0" />
+      <point x="-990.875" y="3853.0" />
+      <point x="769.7094639311708" y="3853.0" />
+      <point x="0.0" y="-153.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedCommentService" target="com.example.toyshop.dto.feed_comment.FeedCommentDetailDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.0" />
+      <point x="3021.921382086919" y="137.0" />
+      <point x="2583.38084601809" y="137.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.CategoryService" target="com.example.toyshop.dto.category.CategoryListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="-3976.75" y="2077.0" />
+      <point x="-4380.99415398191" y="2077.0" />
+      <point x="-4380.99415398191" y="2899.0" />
+      <point x="-4193.828617913081" y="2899.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+    <edge source="com.example.toyshop.service.FeedService" target="com.example.toyshop.repository.feed.FindFeedByFilters" relationship="DEPENDENCY">
+      <point x="0.0" y="116.0" />
+      <point x="5183.921382086919" y="845.0" />
+      <point x="4313.459463931171" y="845.0" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="com.example.toyshop.controller.FeedCategoryController" target="com.example.toyshop.dto.feed_category.FeedCategoryListDTO" relationship="DEPENDENCY">
+      <point x="0.0" y="68.5" />
+      <point x="6671.209463931171" y="2077.0" />
+      <point x="6405.709463931171" y="2077.0" />
+      <point x="0.0" y="-177.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7450580596923828" showDependencies="true" x="1522.9496371200003" y="1001.6208947200003" />
+  <SelectedNodes>
+    <node>com.example.toyshop.security.UserDetailsCustom.UserDetailsCustomBuilder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

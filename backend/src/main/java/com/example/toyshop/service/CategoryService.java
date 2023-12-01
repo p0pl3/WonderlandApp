@@ -1,34 +1,29 @@
 package com.example.toyshop.service;
 
-import com.example.toyshop.dto.category.CategoryCreateDTO;
-import com.example.toyshop.dto.category.CategoryListDTO;
 import com.example.toyshop.entity.Category;
 import com.example.toyshop.repository.CategoryRepository;
-import com.example.toyshop.mapper.CategoryMapper;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor
 public class CategoryService {
 
     private final CategoryRepository repository;
-    private CategoryMapper mapper;
 
 
-    public CategoryListDTO create(CategoryCreateDTO category) {
-        return mapper.toListDto(repository.save(mapper.toEntity(category)));
+    public Category create(Category category) {
+        return repository.save(category);
     }
 
-    public List<CategoryListDTO> findAll() {
-        return repository.findAll().stream().map(mapper::toListDto).collect(Collectors.toList());
+    public List<Category> findAll() {
+        return repository.findAll();
     }
 
-    public List<CategoryCreateDTO> findByTitle(String title) {
-        return repository.findByTitle(title).stream().map(mapper::toDto).collect(Collectors.toList());
+    public List<Category> findByTitle(String title) {
+        return repository.findByTitle(title);
     }
 
     public Category findById(Long id) {
@@ -43,8 +38,4 @@ public class CategoryService {
         repository.deleteById(id);
     }
 
-    public Category readById(Long id) {
-        return repository.findById(id).orElseThrow(() ->
-                new RuntimeException("Category not found - " + id));
-    }
 }

@@ -21,13 +21,10 @@ public class Product {
     private Long id;
     private String title;
     private String description;
-
     private Float price;
     private Short discount;
     private Float new_price;
-
     private Integer amount;
-
     private Float rating;
     private Short delivery_period;
 

@@ -35,7 +35,10 @@ class AuthService {
         console.log(user)
         return axios.post(API_URL + 'users', {
             email: user.email,
-            password: user.password
+            password1: user.password,
+            password2: user.password,
+            username: user.email
+
         }).then(response => {
             console.log(response.data.token)
             if (response.data.token) {

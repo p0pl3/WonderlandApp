@@ -2,12 +2,14 @@ package com.example.toyshop.controller;
 
 import com.example.toyshop.dto.category.CategoryCreateDTO;
 import com.example.toyshop.dto.category.CategoryListDTO;
+import com.example.toyshop.mapper.CategoryMapper;
 import com.example.toyshop.service.CategoryService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/category")
@@ -15,15 +17,16 @@ import java.util.List;
 public class CategoryController {
 
     private final CategoryService service;
+    private final CategoryMapper mapper;
 
     @PostMapping("/")
     public ResponseEntity<CategoryListDTO> create(@RequestBody CategoryCreateDTO category){
-        return ResponseEntity.ok(service.create(category));
+        return ResponseEntity.ok(mapper.toListDto(service.create(mapper.toEntity(category))));
     }
 
     @GetMapping("/list")
     public ResponseEntity<List<CategoryListDTO>> getCategoryList() {
-        return ResponseEntity.ok(service.findAll());
+        return ResponseEntity.ok(service.findAll().stream().map(mapper::toListDto).collect(Collectors.toList()));
     }
 
     @DeleteMapping("/{id}")

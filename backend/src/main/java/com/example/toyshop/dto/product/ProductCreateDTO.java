@@ -1,10 +1,6 @@
 package com.example.toyshop.dto.product;
 
-
-import com.example.toyshop.dto.product_comment.ProductCommentDTO;
 import lombok.Data;
-
-import java.util.List;
 
 @Data
 public class ProductCreateDTO {

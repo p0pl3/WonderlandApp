@@ -1,0 +1,16 @@
+spring.datasource.url=jdbc:postgresql://localhost:54311/db
+spring.datasource.username=postgres
+spring.datasource.password=password
+spring.jpa.generate-ddl=true
+
+server.port=8081
+
+
+spring.servlet.multipart.max-file-size=10MB
+spring.servlet.multipart.max-request-size=10MB
+
+media.url=/media
+
+jwt.secret=404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+
+springdoc.swagger-ui.path=/swagger-ui.html
