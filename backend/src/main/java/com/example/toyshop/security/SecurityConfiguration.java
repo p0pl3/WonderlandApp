@@ -34,9 +34,9 @@ public class SecurityConfiguration {
                         "/v3/api-docs/**",
                         "/swagger-ui/**",
                         "/swagger-ui.html").permitAll()
-                .requestMatchers(HttpMethod.GET, "/product/**", "/feed/**", "/category/**", "/feed_category/**", "/user").permitAll()
+                .requestMatchers(HttpMethod.GET, "/product/**", "/feed/**", "/category/**", "/feed_category/**").permitAll()
                 .requestMatchers(HttpMethod.POST, "/product/comments/**", "/feed/comments/**", "/user/*/update").authenticated()
-                .requestMatchers("/orders/**").authenticated()
+                .requestMatchers("/orders/**", "/user").authenticated()
                 .anyRequest().hasAuthority("ADMIN")
                 .and()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)

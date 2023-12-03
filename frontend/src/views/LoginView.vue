@@ -22,7 +22,7 @@ export default {
   methods: {
     loginUser(userLog) {
       this.$store.dispatch("login", {email: userLog.email, password: userLog.password});
-      this.$router.push('/profile');
+      this.$router.push('/');
     }
   }
 }

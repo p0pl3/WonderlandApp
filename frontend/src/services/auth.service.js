@@ -12,7 +12,7 @@ class AuthService {
             console.log(response.data)
             let newuser = response.data;
             if (response.data) {
-                axios.get("http://localhost:8081/user",
+                return axios.get("http://localhost:8081/user",
                     {headers: {Authorization: 'Bearer ' + response.data.token}})
                     .then(r => {
                         console.log(r);

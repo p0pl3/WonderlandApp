@@ -195,7 +195,7 @@ export default createStore({
         loginSuccess(state, user) {
             state.curUser.status = true;
             state.curUser.user = user;
-            console.log()
+            console.log(state.curUser)
         },
         loginFailure(state) {
             state.curUser.status = false;
@@ -361,9 +361,10 @@ export default createStore({
 
         login({commit}, user) {
             return AuthService.login(user).then(
-                user => {
-                    commit('loginSuccess', user);
-                    return Promise.resolve(user);
+                userr => {
+                    console.log(userr);
+                    commit('loginSuccess', userr);
+                    return Promise.resolve(userr);
                 },
                 error => {
                     commit('loginFailure');
