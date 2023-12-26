@@ -19,7 +19,6 @@ import java.util.stream.Collectors;
 @RequestMapping("/product")
 @AllArgsConstructor
 public class ProductController {
-
     private final ProductService service;
     private final ProductMapper mapper;
 

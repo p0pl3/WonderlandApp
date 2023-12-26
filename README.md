@@ -1,4 +1,4 @@
-docker-compose в oidc
+docker-compose в auth
 сбилдить джаву потом docker-compose
 фронт npm install потом npm run serve
 после запуска контейнеров

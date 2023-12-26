@@ -1,5 +1,4 @@
 version: '3.7'
-
 services:
   server:
     build:
@@ -15,7 +14,6 @@ services:
     networks:
       - backend
     restart: always
-
   db_resources:
     image: postgres:14.1-alpine
     container_name: db_resources
@@ -29,8 +27,6 @@ services:
     networks:
       - backend
     restart: always
-
-
 networks:
   backend:
     driver: 'bridge'

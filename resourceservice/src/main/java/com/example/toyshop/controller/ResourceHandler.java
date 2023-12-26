@@ -10,11 +10,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @RequiredArgsConstructor
 public class ResourceHandler implements WebMvcConfigurer {
 
-    @Value("${media.url}")
-    private String baseMediaUrl;
-
-//    private final String UPLOAD_DIRECTORY = "/images/"; // в docker
-    private final String UPLOAD_DIRECTORY = baseMediaUrl + "/images/"; // на локалке
+    @Value("${media}")
+    private String UPLOAD_DIRECTORY;
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {

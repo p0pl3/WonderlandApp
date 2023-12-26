@@ -29,9 +29,7 @@ public class UserController {
 
     @GetMapping
     public ResponseEntity<UserDTO> getPersonInformation() {
-        System.out.println("123");
         User user = authenticatedUserService.getAuthenticatedPerson();
-        System.out.println(user);
         return ResponseEntity.ok(mapper.toDto(user));
     }
 

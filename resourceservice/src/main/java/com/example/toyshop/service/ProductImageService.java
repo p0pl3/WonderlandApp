@@ -23,9 +23,8 @@ public class ProductImageService {
 
     private final ProductImageRepository repository;
 
-    @Value("${media.url}")
-    private String baseMediaUrl;
-    private final String IMAGES_DIRECTORY = baseMediaUrl + "/images/";
+    @Value("${media}")
+    private String IMAGES_DIRECTORY;
 
     public ProductImage create(MultipartFile file, Product product) throws IOException {
         String fileName = product
